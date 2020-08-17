@@ -1,6 +1,6 @@
 Package: COM
 Type: Package
-Title: This package calculates the combined generalized U statistic for the 
+Title: This package calculates the Cauchy-combined Omnibus Test (COT) statistic for the 
     association analysis between two similarity matrixes
 Version: 0.1.0
 Author: Wang Jinjuan, Li Qizhai

@@ -72,11 +72,11 @@ zhangjtMat <- function(E,G,seq0){
 
 
 
-#' Significance calculation for the combined generalized U statistc.
+#' Significance calculation for the Cauchy-combined Omnibus Test (COT) statistic.
 #'
 #' @param mat0 a matrix of p values to be combined.
 #'
-#' @return the p value of the combined generalized U statistic.
+#' @return the p value of the Cauchy-combined Omnibus Test (COT) statistic.
 #' @export
 #'
 #' @examples
@@ -99,8 +99,8 @@ zhangjtMat <- function(E,G,seq0){
 #' Ky = calcKerMat_Cen(y)
 #' seq1 = c(0.5,1,2)
 #' mat1 = zhangjtMat(Kx,Ky,seq1)
-#' CGU9(mat1)
-CGU9 <- function(mat0){
+#' COT(mat1)
+COT <- function(mat0){
   mat1 = tan((0.5-mat0)*pi)
 
   k = dim(mat0)[1]
